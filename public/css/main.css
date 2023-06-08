@@ -56,7 +56,8 @@ video.signv {
 }
 .rounded2 {
     border-radius: var(--bs-border-radius)!important;
-    background-color: #f9faff;
+    background-color: #f9faff00;
+    backdrop-filter: blur(42px);
 }
 
 

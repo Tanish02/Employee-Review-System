@@ -3,7 +3,7 @@
     <div class="container mt-4 col-md-4 ">
       <h4 class="text-center">Emloyee details</h4>
 
-      <form class="row g-3 mt-1 border rounded p-2 shadow mt-4" 
+      <form class="row g-3 mt-1 border rounded2 p-2 shadow mt-4" 
         style="--bs-border-opacity: 0.5"
         action="/update-employee/<%= employee._id %>" 
         method="POST">
@@ -48,7 +48,7 @@
 
       <% for(review of reviewsFromOthers) {%>
         <div>
-          <form action="/review/update-review/<%= review._id%>" method="POST" class="rounded p-3 mt-4 border shadow" >
+          <form action="/review/update-review/<%= review._id%>" method="POST" class="rounded2 p-3 mt-4 border shadow" >
             
             <div class="form-outline mb-2">
               <label for="recipient" class="form-label">From</label>
