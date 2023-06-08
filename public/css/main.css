@@ -54,9 +54,9 @@ video.signv {
     flex: 0 0 auto;
     width: 49%;
 }
-.rounded {
+.rounded2 {
     border-radius: var(--bs-border-radius)!important;
-/*     background-color: #f9faff; */
+    background-color: #f9faff;
 }
 
 
