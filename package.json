@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "author": "",
+  "author": "Tanish Thorat",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
