@@ -56,7 +56,7 @@ video.signv {
 }
 .rounded {
     border-radius: var(--bs-border-radius)!important;
-    background-color: #f9faff;
+/*     background-color: #f9faff; */
 }
 
 
